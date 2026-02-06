@@ -3,11 +3,11 @@
 import { pipeline } from "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.7.6/dist/transformers.min.js";
 
 // GOOGLE SHEETS LOGGING URL
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxI3o9upreZ33SjkA8hBjDMM6v7JAU9gWxsLnrqLBueG3_xFS--jn351CG1AETSPlGd/exec";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz1utV9nW7oRBDAHumRVaCUMtYEADJJPpCJS-JvA4uvCKRQX8TzmGLAM3GIy-Jpbnag/exec";
 
 // Global variables
 let reviews = [];
-let apiToken = ""; // kept for UI compatibility, but not used with local inference
+let apiToken = "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"; // kept for UI compatibility, but not used with local inference
 let sentimentPipeline = null; // transformers.js text-classification pipeline
 
 // DOM elements
