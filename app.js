@@ -7,7 +7,7 @@ const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz1utV9nW7oRB
 
 // Global variables
 let reviews = [];
-let apiToken = "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"; // kept for UI compatibility, but not used with local inference
+let apiToken = ""; // kept for UI compatibility, but not used with local inference
 let sentimentPipeline = null; // transformers.js text-classification pipeline
 
 // DOM elements
